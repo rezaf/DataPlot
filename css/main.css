@@ -1,0 +1,11 @@
+#container {
+  min-width: 310px;
+  height: 400px;
+  margin: 55px;
+}
+
+#timeRange {
+  position: absolute;
+  left: 740px;
+  top: 14px;
+}

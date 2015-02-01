@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DataPlot</title>
+  </head>
+  <body>
+    <div id="timeRange">
+      <button id="today" type="button" class="btn btn-primary btn-sm">
+        Today
+      </button>
+      <button id="three" type="button" class="btn btn-primary btn-sm">
+        3 Days
+      </button>
+      <button id="seven" type="button" class="btn btn-primary btn-sm">
+        7 Days
+      </button>
+      <button id="fourteen" type="button" class="btn btn-primary btn-sm active">
+        14 Days
+      </button>
+    </div>
+    <div id="container"></div>
+
+    <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
+    </script>
+    <script src="vendor/papaparse.js"></script>
+    <script src="vendor/underscore.js"></script>
+    <script src="vendor/sugar.min.js"></script>
+    <script src="lib/main.js"></script>
+  </body>
+</html>
