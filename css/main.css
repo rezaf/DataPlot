@@ -28,3 +28,7 @@
   position: relative;
   left: 27px;
 }
+
+#segdata li:hover:not(.active){
+  background: #dbe9f5;
+}
