@@ -9,3 +9,18 @@
   left: 740px;
   top: 14px;
 }
+
+#pie-chart {
+  position: absolute;
+  display: inline-block;
+  right: 30px;
+  border: solid 3px blue;
+}
+
+#segdata {
+  position: relative;
+  display: inline-block;
+  top: 70px;
+  left: 130px;
+  border: solid 3px red;
+}
