@@ -14,7 +14,6 @@
   position: absolute;
   display: inline-block;
   right: 30px;
-  border: solid 3px blue;
 }
 
 #segdata {
@@ -22,5 +21,10 @@
   display: inline-block;
   top: 70px;
   left: 130px;
-  border: solid 3px red;
+  min-width: 200px;
+}
+
+#segdata h4 {
+  position: relative;
+  left: 27px;
 }
