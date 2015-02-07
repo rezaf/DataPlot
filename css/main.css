@@ -1,7 +1,7 @@
 .plot {
   min-width: 310px;
-  height: 400px;
-  margin: 55px;
+  height: 350px;
+  margin: 45px 55px 0px 55px;
 }
 
 #timeRange {
@@ -13,14 +13,15 @@
 #pie-chart {
   position: absolute;
   display: inline-block;
+  height: 350px;
   right: 30px;
 }
 
 #segdata {
   position: relative;
   display: inline-block;
-  top: 70px;
-  left: 170px;
+  top: 55px;
+  left: 190px;
   min-width: 200px;
 }
 
