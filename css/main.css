@@ -10,6 +10,21 @@
   top: 14px;
 }
 
+#stats {
+  position: absolute;
+  left: 150px;
+  top: 14px;
+  color: white;
+}
+
+#stats button:nth-of-type(1) {
+  background-color: #33b419;
+}
+
+#stats button:nth-of-type(2) {
+  background-color: #d3660a;
+}
+
 #pie-chart {
   position: absolute;
   display: inline-block;
