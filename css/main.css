@@ -30,6 +30,10 @@
   left: 27px;
 }
 
+#segdata li:hover {
+  cursor: pointer;
+}
+
 #segdata li:hover:not(.active){
   background: #dbe9f5;
 }
