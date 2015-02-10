@@ -1,4 +1,6 @@
 .plot {
+  position: relative;
+  top: 30px;
   min-width: 1010px;
   height: 350px;
   margin: 15px 55px 0px 45px;
@@ -36,7 +38,7 @@
 #segdata {
   position: relative;
   display: inline-block;
-  top: 55px;
+  top: 75px;
   left: 190px;
   min-width: 200px;
 }
