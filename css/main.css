@@ -1,7 +1,7 @@
 .plot {
   min-width: 1010px;
   height: 350px;
-  margin: 45px 55px 0px 55px;
+  margin: 25px 55px 0px 45px;
 }
 
 #timeRange {
@@ -28,6 +28,7 @@
 #pie-chart {
   position: absolute;
   display: inline-block;
+  top: 400px;
   height: 350px;
   right: 30px;
 }
@@ -55,6 +56,6 @@
 
 #credits {
   position: absolute;
-  bottom: 0px;
+  top: 700px;
   left: 450px;
 }
