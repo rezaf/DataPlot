@@ -1,7 +1,7 @@
 .plot {
   min-width: 1010px;
   height: 350px;
-  margin: 25px 55px 0px 45px;
+  margin: 15px 55px 0px 45px;
 }
 
 #timeRange {
@@ -55,7 +55,7 @@
 }
 
 #credits {
-  position: absolute;
-  top: 700px;
+  position: fixed;
+  top: 720px;
   left: 450px;
 }
