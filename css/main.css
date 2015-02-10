@@ -52,3 +52,9 @@
 #segdata li:hover:not(.active){
   background: #dbe9f5;
 }
+
+#credits {
+  position: absolute;
+  bottom: 0px;
+  left: 450px;
+}
