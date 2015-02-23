@@ -8,22 +8,19 @@
   </head>
   <body>
     <!-- Modal -->
-    <div class="modal fade" id="myModal">
+    <div class="modal fade" id="introModal">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title text-center" id="myModalLabel">
+            <h4 class="modal-title text-center" id="introModalLabel">
               Welcome to DataPlot!
             </h4>
           </div>
           <div class="modal-body">
             <p class="lead">
-              DataPlot is a prototype for a data visualization dashboard for display of aggregate end-user email view activity. DataPlot provides multiple settings for updating the dashboard visualizations. Timeframe data, population segment data, and device usage statistics are all displayed and can be selectively used to modify the displayed data.
+              DataPlot is the prototype of a data visualization dashboard for display of aggregate end-user email view activity. DataPlot provides multiple settings for updating the dashboard visualizations. Timeframe data, population segment data, and device usage statistics are all displayed and can be selectively used to modify the displayed data.
             </p>
             <ul>
-              <li>
-                Press the green <strong>Mean Line</strong> button to toggle display of data mean value.
-              </li>
               <li>
                 Press the orange <strong>Trend Line</strong> button to toggle display of best-fit data trend line.
               </li>
@@ -44,13 +41,9 @@
       </div>
     </div>
     <div id="stats">
-      <button id="mean" type="button" class="btn btn-sm">Mean Line</button>
       <button id="trend" type="button" class="btn btn-sm">Trend Line</button>
     </div>
     <div id="timeRange">
-      <button id="today" type="button" class="btn btn-primary btn-sm">
-        Today
-      </button>
       <button id="three" type="button" class="btn btn-primary btn-sm">
         3 Days
       </button>
@@ -62,7 +55,6 @@
       </button>
     </div>
     <div id="container" class="plot"></div>
-    <div id="container-today" class="plot"></div>
     <div id="segdata">
       <h4>User Breakdown</h4>
       <ul class="list-group">
@@ -81,7 +73,7 @@
       </ul>
     </div>
     <div id="pie-chart"></div>
-    <span id="credits"><a href="http://www.rezafarajian.com">Created by Reza Farajian. ©2015</a></span>
+    <span id="credits"><a href="http://www.rezafarajian.com">©2015 Reza Farajian</a></span>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
